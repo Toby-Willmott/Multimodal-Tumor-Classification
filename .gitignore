@@ -1,0 +1,27 @@
+# Data (2.6 GB, course-provided - do not commit)
+input/
+
+# Training outputs, checkpoints and logs
+output/
+wandb/
+*.pth
+*.pt
+*.pth.tar
+*.ckpt
+predictions.csv
+
+# Python / uv
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Submission files
+*.zip
+*.mp4
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
